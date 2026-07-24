@@ -11,10 +11,10 @@ The system accepts energy readings from devices, processes them asynchronously, 
 - **Spring Cloud:** **2025.1.0** — Gateway (Server WebMVC), **Circuit Breaker** (Resilience4j)  
 - **Messaging:** **Apache Kafka** (KRaft)  
 - **Databases:** **MySQL 8** (relational data), **InfluxDB 2** (time-series usage)  
-- **Identity (local dev):** **Keycloak**  
+- **Identity (local dev):** **Keycloak**  (Currently under development)
 - **Email (local dev):** **Mailpit**  
-- **Observability:** **Micrometer**, **Prometheus**, **Grafana**  
-- **API documentation:** **springdoc-openapi** (gateway aggregates service OpenAPI URLs)  
+- **Observability:** **Micrometer**, **Prometheus**, **Grafana**  (Currently under development)
+- **API documentation:** **springdoc-openapi** (gateway aggregates service OpenAPI URLs)  (Currently under development)
 - **Containerization:** **Docker** & **Docker Compose**  
 - **Build:** **Maven** (each service includes `mvnw`)  
 
@@ -56,5 +56,5 @@ The system is a **microservices architecture** built primarily with **Spring Boo
 | **insight-service** | `8085` | Usage insights (e.g. LLM-backed explanations via Ollama) | Spring Boot 4.1, Spring AI, Ollama starter, Actuator/Prometheus | Invoked via gateway; optional external Ollama runtime |
 
 **Planned additions: React Front-End & Cloud Deployment of containers**
-
+**Currently the project is about 90% completed with KeyCloak, OpenAPI, Oberservability to be completed**
 **More Details and step by step instructions to follow soon**
