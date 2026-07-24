@@ -56,5 +56,7 @@ The system is a **microservices architecture** built primarily with **Spring Boo
 | **insight-service** | `8085` | Usage insights (e.g. LLM-backed explanations via Ollama) | Spring Boot 4.1, Spring AI, Ollama starter, Actuator/Prometheus | Invoked via gateway; optional external Ollama runtime |
 
 **Planned additions: React Front-End & Cloud Deployment of containers**
+
 **Currently the project is about 90% completed with KeyCloak, OpenAPI, Oberservability to be completed**
+
 **More Details and step by step instructions to follow soon**
