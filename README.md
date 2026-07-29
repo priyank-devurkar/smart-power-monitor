@@ -59,6 +59,8 @@ The system is a **microservices architecture** built primarily with **Spring Boo
 ## Observability with Prometheus and Grafana
 Services expose Prometheus-compatible metrics via Actuator. Prometheus scrapes and stores series; Grafana visualizes SLO-friendly dashboards (latency, errors, JVM, circuit breaker health).
 
+<img width="834" height="372" alt="Observability" src="https://github.com/user-attachments/assets/d881e357-79c7-45d2-a649-cd7e6f78ff1c" />
+
 
 **Planned additions: React Front-End & Cloud Deployment of containers**
 
