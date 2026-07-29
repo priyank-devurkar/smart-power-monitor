@@ -61,9 +61,32 @@ Services expose Prometheus-compatible metrics via Actuator. Prometheus scrapes a
 
 <img width="834" height="372" alt="Observability" src="https://github.com/user-attachments/assets/d881e357-79c7-45d2-a649-cd7e6f78ff1c" />
 
+**Access points (local defaults)**
 
-**Planned additions: React Front-End & Cloud Deployment of containers**
+| What |  URL |
+|------|--------|
+| API Gateway	| http://localhost:9000 |
+Grafana	| http://localhost:3000 (admin / admin) |
+Prometheus	| http://localhost:9090 |
+Kafka UI	| http://localhost:8070 |
+Mailpit	 | http://localhost:8025 |
+Keycloak |	http://localhost:8091 |
+InfluxDB UI |	http://localhost:8072 |
 
-**Currently the project is about 90% completed with KeyCloak, OpenAPI, Oberservability to be completed**
+Service-specific OpenAPI is linked from the gateway’s Swagger UI configuration (/swagger-ui.html).
+
+## Observability
+
+- Each Spring Boot app exposes `**/actuator/prometheus**` (enabled via dependencies and management config).
+- **Prometheus** (`docker/prometheus/prometheus.yml`) defines scrape jobs for the gateway and all services on the host.
+- **Grafana** loads provisioning from `docker/grafana/provisioning` and uses Prometheus as a data source.
+- **Circuit breaker** state can be surfaced through Actuator health where enabled (see gateway `application.properties`).
+
+Use Grafana for dashboards and Prometheus for ad-hoc queries and alerting rules as you extend the deployment
+
+
+**Planned enhancements: React Front-End & Cloud Deployment of containers**
+
+**Currently the project is about 90% completed with TestContainers & Agents.MD to be completed**
 
 **More Details and step by step instructions to follow soon**
