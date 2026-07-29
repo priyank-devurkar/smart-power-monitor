@@ -84,6 +84,7 @@ Service-specific OpenAPI is linked from the gateway’s Swagger UI configuration
 
 Use Grafana for dashboards and Prometheus for ad-hoc queries and alerting rules as you extend the deployment
 
+---
 
 **Planned enhancements:**
  - React Front-End
