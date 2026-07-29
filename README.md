@@ -56,6 +56,10 @@ The system is a **microservices architecture** built primarily with **Spring Boo
 | **alert-service** | `8084` | Consume alert events, notify users (e.g. email) | Spring Boot 4.1, Kafka, JPA, Mail, MySQL, Actuator/Prometheus | Kafka consumer; SMTP (Mailpit locally); MySQL where applicable |
 | **insight-service** | `8085` | Usage insights (e.g. LLM-backed explanations via Ollama) | Spring Boot 4.1, Spring AI, Ollama starter, Actuator/Prometheus | Invoked via gateway; optional external Ollama runtime |
 
+## Observability with Prometheus and Grafana
+Services expose Prometheus-compatible metrics via Actuator. Prometheus scrapes and stores series; Grafana visualizes SLO-friendly dashboards (latency, errors, JVM, circuit breaker health).
+
+
 **Planned additions: React Front-End & Cloud Deployment of containers**
 
 **Currently the project is about 90% completed with KeyCloak, OpenAPI, Oberservability to be completed**
