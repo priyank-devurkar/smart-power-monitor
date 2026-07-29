@@ -85,8 +85,12 @@ Service-specific OpenAPI is linked from the gateway’s Swagger UI configuration
 Use Grafana for dashboards and Prometheus for ad-hoc queries and alerting rules as you extend the deployment
 
 
-**Planned enhancements: React Front-End & Cloud Deployment of containers**
+**Planned enhancements:**
+ - React Front-End
+ - Cloud Deployment of containers
+ - User Dashboards
+ - Redis
 
-**Currently the project is about 90% completed with TestContainers & Agents.MD to be completed**
+**Currently the project is about 95% completed with TestContainers & Agents.MD to be completed**
 
 **More Details and step by step instructions to follow soon**
