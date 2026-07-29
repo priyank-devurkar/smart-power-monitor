@@ -12,7 +12,7 @@ The system accepts energy readings from devices, processes them asynchronously, 
 - **Spring Cloud:** **2025.1.0** — Gateway (Server WebMVC), **Circuit Breaker** (Resilience4j)  
 - **Messaging:** **Apache Kafka** (KRaft)  
 - **Databases:** **MySQL 8** (relational data), **InfluxDB 2** (time-series usage)  
-- **Identity (local dev):** **Keycloak**  (Currently under development)
+- **Identity (local dev):** **Keycloak**
 - **Email (local dev):** **Mailpit**  
 - **Observability:** **Micrometer**, **Prometheus**, **Grafana**  (Currently under development)
 - **API documentation:** **springdoc-openapi** (gateway aggregates service OpenAPI URLs)  (Currently under development)
