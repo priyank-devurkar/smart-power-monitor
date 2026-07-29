@@ -1,6 +1,6 @@
 # Smart Power Monitor
 
-# Project Overview
+## Project Overview
 This is a Spring Boot based Microservices application to track home power usages and send email alerts to users on their device energy usages
 
 The system accepts energy readings from devices, processes them asynchronously, stores time-series metrics, raises alerts when usage spikes, and exposes a unified API through an API Gateway with resilience, security, and observability built in.
