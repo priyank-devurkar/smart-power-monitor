@@ -103,6 +103,4 @@ Use Grafana for dashboards and Prometheus for ad-hoc queries and alerting rules 
  - User Dashboards
  - Redis
 
-**Currently the project is about 95% completed with TestContainers & Agents.MD to be completed**
-
 **More Details and step by step instructions to follow soon**
