@@ -14,8 +14,8 @@ The system accepts energy readings from devices, processes them asynchronously, 
 - **Databases:** **MySQL 8** (relational data), **InfluxDB 2** (time-series usage)  
 - **Identity (local dev):** **Keycloak**
 - **Email (local dev):** **Mailpit**  
-- **Observability:** **Micrometer**, **Prometheus**, **Grafana**  (Currently under development)
-- **API documentation:** **springdoc-openapi** (gateway aggregates service OpenAPI URLs)  (Currently under development)
+- **Observability:** **Micrometer**, **Prometheus**, **Grafana** 
+- **API documentation:** **springdoc-openapi** (gateway aggregates service OpenAPI URLs) 
 - **Containerization:** **Docker** & **Docker Compose**  
 - **Build:** **Maven** (each service includes `mvnw`)  
 
