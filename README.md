@@ -62,6 +62,7 @@ The system is a **microservices architecture** built primarily with **Spring Boo
 The API Gateway sits in a public or DMZ-style network segment while core services run in a more private zone. Clients never talk to every microservice directly; they use one controlled entry point.
 
 <img width="595" height="451" alt="Api-Gateway" src="https://github.com/user-attachments/assets/085cd46d-13ed-4165-a9d9-0ccfb42bb811" />
+
 Figure: Public vs private network separation with the gateway as the controlled entry point.
 
 ## Observability with Prometheus and Grafana
