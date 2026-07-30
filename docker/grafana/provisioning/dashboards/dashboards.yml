@@ -1,0 +1,11 @@
+apiVersion: 1
+providers:
+  - name: Smart Power Monitor
+    orgId: 1
+    folder: Smart Power Monitor
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 30
+    allowUiUpdates: true
+    options:
+      path: /etc/grafana/provisioning/dashboards/json

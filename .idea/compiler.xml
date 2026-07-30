@@ -15,14 +15,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="insight-service" />
         <module name="usage-service" />
         <module name="user-service" />
         <module name="telemetry-service" />
-        <module name="device-service" />
         <module name="alert-service" />
+        <module name="device-service" />
       </profile>
     </annotationProcessing>
   </component>
