@@ -2,7 +2,7 @@
 
 ## Project Overview
 This is a Spring Boot based Microservices application to track home power usages and send email alerts to users on their device energy usages.
-I have built this application as a part of Spring Boot learning project by following an online tutorial and have implemented & enhanced it into my own repository. I plan to add additional components and features to the application to improve the design.
+I have built this application as a part of my learning project through course and have implemented & enhanced it into my own repository. I plan to add additional components like front-end, caching, deployment to cloud and other features to the application to improve the design.
 
 The system accepts energy readings from devices, processes them asynchronously, stores time-series metrics, raises alerts when usage spikes, and exposes a unified API through an API Gateway with resilience, security, and observability built in.
 
